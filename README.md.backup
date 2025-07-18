@@ -1,6 +1,22 @@
 # Tiation temp github pages
 
 <div align="center">
+
+![Tiation Ecosystem](https://img.shields.io/badge/🔮_TIATION_ECOSYSTEM-temp_github_pages-00FFFF?style=for-the-badge&labelColor=0A0A0A&color=00FFFF)
+
+**Enterprise-grade solution in the Tiation ecosystem**
+
+*Professional • Scalable • Mission-Driven*
+
+[![🌐_Live_Demo](https://img.shields.io/badge/🌐_Live_Demo-View_Project-00FFFF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/temp-github-pages)
+[![📚_Documentation](https://img.shields.io/badge/📚_Documentation-Complete-007FFF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/temp-github-pages)
+[![⚡_Status](https://img.shields.io/badge/⚡_Status-Active_Development-FF00FF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/temp-github-pages)
+[![📄_License](https://img.shields.io/badge/📄_License-MIT-00FFFF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/temp-github-pages)
+
+</div>
+
+---
+<div align="center">
   <img src="assets/tiation-logo.svg" alt="Tiation Logo" width="200" height="200">
   
   [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -197,3 +213,19 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
     </a>
   </p>
 </div>
+
+---
+
+## 🔮 Tiation Ecosystem
+
+This repository is part of the Tiation ecosystem. Explore related projects:
+
+- [🌟 TiaAstor](https://github.com/TiaAstor/TiaAstor) - Personal brand and story
+- [🐰 ChaseWhiteRabbit NGO](https://github.com/tiation/tiation-chase-white-rabbit-ngo) - Social impact initiatives
+- [🏗️ Infrastructure](https://github.com/tiation/tiation-rigger-infrastructure) - Enterprise infrastructure
+- [🤖 AI Agents](https://github.com/tiation/tiation-ai-agents) - Intelligent automation
+- [📝 CMS](https://github.com/tiation/tiation-cms) - Content management system
+- [⚡ Terminal Workflows](https://github.com/tiation/tiation-terminal-workflows) - Developer tools
+
+---
+*Built with 💜 by the Tiation team*
