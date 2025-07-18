@@ -1,0 +1,49 @@
+# GitHub Pages Configuration for Tiation temp github pages
+
+# Site Settings
+title: "Tiation temp github pages"
+description: "Enterprise-grade solution powered by Tiation"
+baseurl: "/temp-github-pages"
+url: "https://tiation.github.io"
+
+# Author Information
+author:
+  name: "Tiation Team"
+  email: "enterprise@tiation.com"
+  url: "https://github.com/tiation"
+
+# Theme Configuration
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Markdown Configuration
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Build Settings
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# SEO
+seo:
+  type: "Organization"
+  name: "Tiation"
+  logo: "assets/tiation-logo.svg"
+
+# Exclude from processing
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache

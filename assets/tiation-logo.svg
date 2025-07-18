@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="tiationGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ffff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ff00ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00ffff;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#0a0a0a" stroke="url(#tiationGradient)" stroke-width="2"/>
+  
+  <!-- Main T logo -->
+  <g transform="translate(100, 100)">
+    <!-- T letter -->
+    <path d="M-40,-40 L40,-40 L40,-25 L10,-25 L10,40 L-10,40 L-10,-25 L-40,-25 Z" 
+          fill="url(#tiationGradient)" 
+          filter="url(#glow)"/>
+    
+    <!-- Circuit pattern -->
+    <g stroke="url(#tiationGradient)" stroke-width="1" fill="none" opacity="0.6">
+      <!-- Horizontal lines -->
+      <line x1="-60" y1="-60" x2="-45" y2="-60"/>
+      <line x1="45" y1="-60" x2="60" y2="-60"/>
+      <line x1="-60" y1="60" x2="-45" y2="60"/>
+      <line x1="45" y1="60" x2="60" y2="60"/>
+      
+      <!-- Vertical lines -->
+      <line x1="-60" y1="-45" x2="-60" y2="-30"/>
+      <line x1="60" y1="-45" x2="60" y2="-30"/>
+      <line x1="-60" y1="30" x2="-60" y2="45"/>
+      <line x1="60" y1="30" x2="60" y2="45"/>
+      
+      <!-- Corner connectors -->
+      <circle cx="-60" cy="-60" r="2" fill="url(#tiationGradient)"/>
+      <circle cx="60" cy="-60" r="2" fill="url(#tiationGradient)"/>
+      <circle cx="-60" cy="60" r="2" fill="url(#tiationGradient)"/>
+      <circle cx="60" cy="60" r="2" fill="url(#tiationGradient)"/>
+    </g>
+  </g>
+  
+  <!-- Company name -->
+  <text x="100" y="180" font-family="Arial, sans-serif" font-size="16" font-weight="bold" 
+        text-anchor="middle" fill="url(#tiationGradient)" filter="url(#glow)">
+    TIATION
+  </text>
+</svg>
