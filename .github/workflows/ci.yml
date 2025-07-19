@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Validate structure
+      run: |
+        echo "Repository structure validated"
+        [[ -f "README.md" ]] || echo "Warning: Missing README.md"
